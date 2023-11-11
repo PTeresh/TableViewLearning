@@ -9,11 +9,12 @@ import UIKit
 
 class TableViewController: UITableViewController {
 
-    let restaurant = ["Papa Djons", "Grilnica", "Shayrmania", "Burger kit", "chikendener", "sahar", "kurica lavash"]
+    let restaurants = ["Papa Djons", "Grilnica", "Shayrmania", "Burger kit", "chikendener", "sahar", "kurica lavash"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.register(TableViewCell.self, forCellReuseIdentifier: "Cell")
+        title = "Restaurants"
 
     }
 
@@ -21,14 +22,14 @@ class TableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return restaurant.count
+        return restaurants.count
     }
 
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! TableViewCell 
 
-        cell.textLabel?.text = restaurant[indexPath.row]
+        cell.textLabel?.text = restaurants[indexPath.row]
 
         return cell
     }
