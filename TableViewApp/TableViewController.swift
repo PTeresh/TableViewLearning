@@ -13,6 +13,7 @@ class TableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.register(TableViewCell.self, forCellReuseIdentifier: "Cell")
 
     }
 
@@ -25,9 +26,9 @@ class TableViewController: UITableViewController {
 
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! TableViewCell 
 
-        
+        cell.textLabel?.text = restaurant[indexPath.row]
 
         return cell
     }
