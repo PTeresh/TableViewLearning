@@ -13,6 +13,8 @@
 		4A75FBBF2AFF59FA0049B21B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A75FBBE2AFF59FA0049B21B /* Assets.xcassets */; };
 		4A75FBC22AFF59FA0049B21B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A75FBC02AFF59FA0049B21B /* LaunchScreen.storyboard */; };
 		4A75FBCA2AFF5A390049B21B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A75FBC92AFF5A390049B21B /* TableViewController.swift */; };
+		4ADB71AF2B03CC8800C1EBCE /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADB71AE2B03CC8800C1EBCE /* CustomTableViewCell.swift */; };
+		4ADB71B12B03DFE700C1EBCE /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADB71B02B03DFE700C1EBCE /* PlaceModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4A75FBC12AFF59FA0049B21B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A75FBC32AFF59FA0049B21B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A75FBC92AFF5A390049B21B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		4ADB71AE2B03CC8800C1EBCE /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		4ADB71B02B03DFE700C1EBCE /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				4A75FBB52AFF59F90049B21B /* AppDelegate.swift */,
 				4A75FBB72AFF59F90049B21B /* SceneDelegate.swift */,
 				4A75FBC92AFF5A390049B21B /* TableViewController.swift */,
+				4ADB71B02B03DFE700C1EBCE /* PlaceModel.swift */,
+				4ADB71AE2B03CC8800C1EBCE /* CustomTableViewCell.swift */,
 				4A75FBBB2AFF59F90049B21B /* Main.storyboard */,
 				4A75FBBE2AFF59FA0049B21B /* Assets.xcassets */,
 				4A75FBC02AFF59FA0049B21B /* LaunchScreen.storyboard */,
@@ -140,6 +146,8 @@
 			files = (
 				4A75FBB62AFF59F90049B21B /* AppDelegate.swift in Sources */,
 				4A75FBCA2AFF5A390049B21B /* TableViewController.swift in Sources */,
+				4ADB71B12B03DFE700C1EBCE /* PlaceModel.swift in Sources */,
+				4ADB71AF2B03CC8800C1EBCE /* CustomTableViewCell.swift in Sources */,
 				4A75FBB82AFF59F90049B21B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
