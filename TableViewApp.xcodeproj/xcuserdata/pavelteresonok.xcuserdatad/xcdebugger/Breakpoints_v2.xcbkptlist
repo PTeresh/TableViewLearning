@@ -14,10 +14,17 @@
             filePath = "TableViewApp/TableViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
+<<<<<<< Updated upstream
             startingLineNumber = "23"
             endingLineNumber = "23"
             landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "7">
+=======
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "TableViewController"
+            landmarkType = "3">
+>>>>>>> Stashed changes
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
